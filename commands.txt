@@ -44,6 +44,15 @@ npm update lodash --save
 npm install -g nodemon
 npm install -g live-server
 
+# RUN NODEMON
+nodemon
+
+# FIND ROOT FOLDER
+npm root -g
+
+# REMOVE GLOBAL PACKAGES
+npm remove -g nodemon
+
 # SEMANTING VERSIONING
 Example: 8.2.6
 --8 : Means the major release, bound to crash API
