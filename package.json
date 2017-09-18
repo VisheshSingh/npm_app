@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "live-server"
   },
   "keywords": [],
   "author": "Vishesh Thakur",
@@ -13,5 +14,7 @@
     "gulp": "^3.9.1",
     "lodash": "^4.17.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
 }

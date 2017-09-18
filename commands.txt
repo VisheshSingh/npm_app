@@ -62,3 +62,18 @@ Example: 8.2.6
 --~ : Perform no changes to the Patch
 --nothing is specified: It means the version should remain as is
 --* : It means its open to new semantic version
+
+# LISTING PACKAGES
+npm list
+npm list --depth 0
+npm list --depth 1
+
+# NPM SCRIPT
+"scripts": {
+    "start": "node index.js",
+    "dev": "live-server"
+  }
+
+# RUN NPM SCRIPTS
+npm start
+npm run dev
